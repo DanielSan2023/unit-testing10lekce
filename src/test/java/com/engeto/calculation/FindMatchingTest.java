@@ -13,7 +13,7 @@ class FindMatchingTest {
     static List<Double> testList;
 
     @BeforeAll
-    static void setup() {
+    static void setUp() {
         testList = List.of(10.0, 15.45, 5.811, 175.0);
     }
 
