@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e336147-a66e-44b6-9163-0cde5ce5d4a9" name="Changes" comment="added Calc class">
+    <list default="true" id="1e336147-a66e-44b6-9163-0cde5ce5d4a9" name="Changes" comment="added Test methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/engeto/calculation/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/engeto/calculation/Calc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/engeto/calculation/CalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/engeto/calculation/CalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/engeto/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/engeto/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/engeto/calculation/Calc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/engeto/calculation/Calc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/engeto/calculation/CalcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/engeto/calculation/CalcTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +45,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CalcTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.engeto.Main" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.engeto.calculation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.com.engeto.calculation in unit-testing10lekce">
+    <configuration name="All in unit-testing10lekce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-testing10lekce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.engeto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,12 +114,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.engeto.calculation in unit-testing10lekce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-testing10lekce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.engeto.calculation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.engeto.calculation" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.engeto.calculation in unit-testing10lekce" />
+        <item itemvalue="JUnit.All in unit-testing10lekce" />
         <item itemvalue="JUnit.CalcTest" />
         <item itemvalue="JUnit.CalcTest.testDeleniNulou" />
         <item itemvalue="JUnit.CalcTest.testScitani" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701008847082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added Test methods">
+      <created>1701011554628</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701011554628</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +193,16 @@
     <MESSAGE value="Init project" />
     <MESSAGE value="added unit jar api dependenci" />
     <MESSAGE value="added Calc class" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Calc class" />
+    <MESSAGE value="added Test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Test methods" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/unit_testing10lekce$CalcTest.ic" NAME="CalcTest Coverage Results" MODIFIED="1701013930616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.engeto.calculation.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/unit_testing10lekce$com_engeto_calculation_in_unit_testing10lekce.ic" NAME="com.engeto.calculation in unit-testing10lekce Coverage Results" MODIFIED="1701014423271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.engeto.calculation.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/unit_testing10lekce$All_in_unit_testing10lekce.ic" NAME="All in unit-testing10lekce Coverage Results" MODIFIED="1701014362830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

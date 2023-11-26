@@ -12,6 +12,7 @@ public class CalcTest {
         int actual = Calc.scitani(2, 3);
         int expected = 5;
         Assertions.assertEquals(expected, actual);
+        //Ak chcem cheknut > Assertions.assertTrue(actual > expected);
     }
 
     @Test
@@ -35,5 +36,18 @@ public class CalcTest {
         Exception expected = Assertions.assertThrows(ArithmeticException.class, () ->
                 Calc.deleni(12, 0));
         Assertions.assertEquals("/ by zero", expected.getMessage());
+
     }
+
+    @Test
+    @DisplayName("Test nasobeni cisel.")
+    void nasobeni() {
+        int actual = Calc.nasobeni(2, 3);
+        int expected = 6;
+
+        Assertions.assertEquals(actual, expected);
+
+    }
+
+
 }
