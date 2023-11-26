@@ -46,7 +46,6 @@ public class CalcTest {
         int expected = 6;
 
         Assertions.assertEquals(actual, expected);
-
     }
 
 
